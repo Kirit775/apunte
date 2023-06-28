@@ -107,7 +107,7 @@
     <img src="https://es.wikipedia.org/wiki/Caf%C3%A9" alt="cafe">
     
     <!-- Los elementos svg son imagenes vectoriales para paginas web-->
-    
+
     <img src="undraw_appreciation_275g.svg" alt="cafe">
 
 ```
