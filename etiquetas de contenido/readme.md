@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contenido</title>
-</head>
-<body>
-    <h1>Etiquetas de Contenido</h1>
-    <!-- las etiquetas de contenido son al etiquetas con importancia semantica para almacenar información-->
+# Apuntes 3
+> 28/06/2023
+---
+* **Etiquetas de contenido**
+* **Formularios**
+## Etiquetas de contenido
+``` html
+<!-- las etiquetas de contenido son al etiquetas con importancia semantica para almacenar información-->
 
     <!-- la etiqueta nav es para las sección de navegacion donde puedes poner lo de inicio/productos/contacto etc.-->
     <nav>
-        <a href="https://www.youtube.com/" >ir a youtube</a>
+        <a href="a" >ir a youtube</a>
         <a href="a">ir a twitter</a>
     </nav>
 
@@ -46,5 +43,5 @@
     <div>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, est.</p>
     </div>
-</body>
-</html>
+
+```
