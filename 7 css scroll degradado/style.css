@@ -1,0 +1,71 @@
+a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(2, 2, 2, 0.712);
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+    max-height: 600px;
+    max-width: 500px;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+
+}
+.card{
+    min-width: 200px;
+    min-height: 200px;
+    color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px wpx 6px rgb(7, 7, 7);
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    scroll-snap-align: start;
+}
+
+.card:hover{
+    box-shadow:  0px 2px 6px black;
+}
+.card:nth-child(1){
+    background-image: linear-gradient(to right, rgba(242, 11, 156), rgba(255,148,114))
+
+}
+.card:nth-child(2){
+    background-image: linear-gradient(to right, #fc5c7d, #6ab2fb);
+}
+.card:nth-child(3){
+    background-image: linear-gradient(to right, #86329b, #274cb3);
+}
+.card:nth-child(4){
+    background-image: linear-gradient(to right, #fc5c7d, #6ab2fb);
+}
+.container::-webkit-scrollbar{
+    width: 8px;
+}
+.container::-webkit-scrollbar-track{
+    background-color: blue;
+    border-radius: 6px;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 5px;
+}
+.container::-webkit-scrollbar-thumb:hover{
+    background-color: yellow;
+}
