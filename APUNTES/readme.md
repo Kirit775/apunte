@@ -3,10 +3,11 @@
 > 27/06/2023
 ---
 * **Etiqueta navegación**
-* **Listas**
+* **Listas ordenadas y desordenadas**
 * **Headings**
 * **Imagenes**
 * **Semanticas**
+* **Elementos linea y elementos bloque**
 
 
 ## etiqueta de navegación
@@ -109,5 +110,17 @@
     <!-- Los elementos svg son imagenes vectoriales para paginas web-->
 
     <img src="undraw_appreciation_275g.svg" alt="cafe">
+
+```
+## Elementos linea y elementos bloque
+``` html
+ <!-- Elementos en linea, solamente ocupan su texto y no todo el espacio horizontal-->
+    <a href="#">uno</a>
+    <a href="#">Dos</a>
+    <a href="#">Tres</a>
+
+    <!-- Los elemtentos bloque, abarcan todo el espacio horizontal independientemente del texto-->
+
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
 
 ```
