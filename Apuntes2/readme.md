@@ -3,6 +3,7 @@
 ---
 * **Tablas**
 * **Desplazamiento por anclas**
+* **Atributos**
 ## Tablas en HTML
 ``` html
 <!-- table es la etiqueta para las tablas-->
