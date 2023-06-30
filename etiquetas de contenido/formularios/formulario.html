@@ -13,22 +13,28 @@
 
     <!-- los name es el atributo como identificador para luego llamarlo con javascript-->
 
-
-    <!-- el atributo maxlength es para delimitar cuantos caracteres pondra el usario-->
+    <!-- el atributo minlength es para delimitar cuantos caracteres pondra el usario-->
 
     <!-- maxlength es para el maximo de caracteres-->
 
 
-
-    <form action="">
+    <!-- action es el atributo que determina a donde se manda la información-->
+    <form>
         <!-- en los form van input que son donde colocaremos información, datos, nombres etc.-->
 
         <!-- ingresa un nombre-->
+
         <!-- label es para conectarlo con un input, el input tiene que tener el un id y en el label el for tiene que tener el id del input-->
+
         <label for="nombre">Ingresa el nombre</label>
+
         <br>
-        <!-- required es el atributo que indica que es obligatorio llenar el input para enviar el fomrulario-->
+        
+        <!-- required es el atributo que indica que es obligatorio llenar el input para enviar el formulario-->
+
         <!-- el placeholder es para poner que quiero que ingrese el usuario-->
+
+        <!-- lso input es donde se pide información al usuario-->
         <input type="text"  placeholder="Ingresa tu nombre" required id="nombre">
 
         <br><br>
@@ -49,7 +55,7 @@
             <option value="MX">México</option>
             <option value="ARG">Argentina</option>
             <option value="BR">Brasil</option>
-            <!-- selected es la opcion ya predefinida-->
+            <!--  el atributo selected es la opcion ya predefinida-->
             <option value="NO" selected>Otro</option>
         </select>
         <!-- que horario quieres-->
