@@ -1,0 +1,43 @@
+# Apuntes 4
+>30/06/2023
+---
+* **Audio y Video**
+* **Iframe**
+## Audio y Video
+``` html
+  <h1>Audio y Video</h1>
+
+    <!-- src fuente del video -->
+    <!-- atributo controls es para los controles del video-->
+    <!-- poster es para poner miniatura al video--> 
+
+    <!-- video es la etiqueta para poner videos-->
+    <video src="./assets/video/kakashicvsobito.mp4"  width="600" controls poster="./assets/img/kakashiyobito.jpg"></video>
+
+    <h2>Canción</h2>
+    <audio src="./assets/Audio/canserbero.mp3"  controls ></audio>
+```
+---
+## Iframe
+``` html
+ <h1>Iframe</h1>
+    <p>sirve para anidar paginas</p>
+    <!-- iframe sirve para anidar paginas html-->
+    <!-- src es donde va la ruta-->
+    <!-- frameborder es el atributo para agregar un borde-->
+    <iframe src="../formularios/formulario.html" width="600" height="500"></iframe>
+
+    <h3>el shopi</h3>
+    <!-- se pueden anidar paginas externas-->
+    <iframe src="https://www.shopify.com"frameborder="0"></iframe>
+
+    <h3>pelea chida </h3>
+    <!-- se pueden integrar videos de youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Gi8jxlEiQ50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h3>mapa demi barrio</h3>
+    <!-- incorporar mapa en html con iframe-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.389978602191!2d-106.38888528473726!3d23.23606046395579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f52e49fbeb7d3%3A0x97b0a9d210f7b160!2sBah%C3%ADa%20del%20Carmen%2C%20Rinc%C3%B3n%20de%20Urias%2C%2082070%20Mazatl%C3%A1n%2C%20Sin.!5e0!3m2!1ses-419!2smx!4v1688156813583!5m2!1ses-419!2smx" width="560" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+![alt](iframe/ifrem.png)
